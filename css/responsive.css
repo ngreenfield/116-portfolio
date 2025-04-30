@@ -31,5 +31,12 @@
 }
 
 @media((max-width: 1007px) and (min-width: 641px)){
-    html{font-size: 13px;}
+    html{font-size: 14px;}
+}
+
+@media(max-width: 1007px){
+    /* Responsive design for each section */
+    .about-section{
+        flex-direction: column;
+    }
 }

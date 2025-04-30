@@ -1,0 +1,42 @@
+/* About Me Section */
+.about-section, .skills-section{
+    padding: 2rem;
+}
+
+.about-image-container{
+    width: 35%;
+}
+
+.about-image-container img{
+    width: 85%;
+}
+
+.about-description-container{
+    width: 65%;
+    padding: 0.8rem;
+}
+
+.about-description-container p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.about-description-container h1{
+    text-align: center;
+}
+
+.about-description-container h2{
+    text-align: center;
+}
+
+/* Skills Section */
+.skills-section{
+    background-color: rgb(66, 66, 66);
+}
+
+.skills-list{
+    flex-wrap: wrap;
+    width: 50%;
+    gap: 1rem;
+    margin-top: 2rem;
+}
