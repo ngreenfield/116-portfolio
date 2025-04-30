@@ -1,5 +1,5 @@
 /* About Me Section */
-.about-section, .skills-section{
+.about-section, .skills-section, .projects-section{
     padding: 2rem;
 }
 
@@ -38,5 +38,45 @@
     flex-wrap: wrap;
     width: 50%;
     gap: 1rem;
+    margin-top: 3rem;
+}
+
+
+/* Projects Section */
+.projects-section{
+    margin-top: 6rem;
+}
+
+.projects-list{
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 5rem;
+    margin-bottom: 2rem;
     margin-top: 2rem;
+    align-items: fl;
+}
+
+.projects-card{
+    background-color: rgb(229, 219, 253);
+    width: 25rem;
+    border-radius: 1rem;
+    height: 28rem;
+    padding: 0.8rem;
+    display: flex;
+}
+
+.projects-card:hover{
+    opacity: 0.8;
+}
+
+.projects-card img{
+    width: 100%;
+    border-radius: 1rem;
+    height: 17rem;
+    object-fit: cover;
+    object-position: center 100%;
+}
+
+.projects-skills{
+    text-align: center;
 }
